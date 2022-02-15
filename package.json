@@ -1,0 +1,19 @@
+{
+  "name": "learn-nodejs-blog",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --inspect ./src/index.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
