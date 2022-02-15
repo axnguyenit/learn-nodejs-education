@@ -1,5 +1,5 @@
 {
-  "name": "learn-nodejs-blog",
+  "name": "learn-nodejs-education",
   "version": "1.0.0",
   "main": "./src/index.js",
   "license": "MIT",
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2"
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.2.1"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
